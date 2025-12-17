@@ -1,0 +1,32 @@
+name: tedris_tecrubesi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/covers/math.jpg
+    - assets/covers/memory.jpg
+    - assets/covers/bigger.jpg
+    - assets/covers/country.jpg
+    - assets/covers/tetris.jpg
+    - assets/covers/puzzle.jpg
+
